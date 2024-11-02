@@ -5,6 +5,23 @@ body {
 	text-decoration: none;
 	font-style: normal;
 }
+h1,
+h2,
+h3,
+h4 p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
 
 .head-one {
 	font-family: Roboto;
@@ -47,6 +64,7 @@ button:focus {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	
 }
 .head-second {
 	font-family: Roboto;
@@ -57,6 +75,11 @@ button:focus {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: #2e2f42;
+	padding-bottom: 72px;
+}
+.our-team {
+	display: flex;
+	gap: 24px;
 }
 .our-team h3 {
 	font-family: Roboto;
@@ -76,7 +99,16 @@ button:focus {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+.our-portfolio {
+	display: flex;
+	flex-basis: calc((1124.4px - 48px) / 3);
+	gap: 24px;
+	flex-wrap: wrap;
+	row-gap: 24px;
+	column-gap: 48px;
+	
 
+}
 .our-portfolio h3 {
 	font-family: Roboto;
 	font-size: 20px;
@@ -116,7 +148,7 @@ button:focus {
 	color: #2e2f42;
 }
 nav .link {
-	font: weight 500px;
+	font-weight:  500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -162,8 +194,19 @@ address .link {
 	font-style: normal;
 }
 .section-one {
+	display: flex;
 	background-color: #2e2f42;
+	width: 1440px;
+	height: 600px;
+	padding-top: 188px ; 
+	 /* padding-bottom: 48px;  */
 }
+/* .list-section-one {
+	display: flex;
+	padding-bottom: 48px;
+	flex-direction: column;
+
+} */
 .list-three {
 	background-color: #ffffff;
 }
@@ -176,3 +219,57 @@ a {
 ul {
 	list-style-type: none;
 }
+img {
+	overflow: hidden;
+	display: block;
+	max-width: 100%;
+}
+.container {
+	/* display: flex; */
+	max-width: 1158px;
+       margin: 0 auto;
+}
+ .page-nav {
+	display: flex;
+	margin-left: 76px;
+		/* margin-right: 332px; */
+}
+/* header .container	{
+	 display: flex; 
+	}  */
+.page-nav .link{
+	 display: block; 
+	padding: 0px 40px;
+	/* flex-direction: row; */
+}
+.nav-logo-nav {
+	display: flex;
+	padding: 24px 76px 24px 0px;
+	max-width: 261px;
+}
+.page-address {
+	display: flex;
+	/* flex-direction: row; */
+	padding: 24px 40px 24px 0px;
+}
+.page-nav {
+	padding-right: 40px;
+}
+.link-address {
+	padding-right: 40px;
+}
+.list-section-one li {
+	padding: 40px;
+	}
+	.advantages {
+		display: flex;
+		gap: 24px;
+	}
+	.basement {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.footer-list {
+		width: 264px;
+		height: 112px;
+	}
