@@ -338,6 +338,9 @@ list-portfolio {
 	letter-spacing: 0.02em;
 	max-width: 264px;
 }
+.basement .container .logo {
+	display: inline-block;
+}
 .footer-list {
 	width: 264px;
 	height: 112px;
