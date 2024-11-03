@@ -53,6 +53,9 @@ section {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+.caption .container {
+	display: flex;
+}
 .nav-logo-nav {
 	display: flex;
 	align-items: center;
@@ -311,10 +314,10 @@ list-portfolio {
 	padding-bottom: 120px; */
 	padding: 100px 0;
 }
-.basement .container {
+/* .basement .container {
 	display: flex;
 	flex-direction: column;
-}
+} */
 .basement .logo {
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
@@ -337,8 +340,8 @@ list-portfolio {
 	letter-spacing: 0.02em;
 	max-width: 264px;
 }
-.basement .container .logo {
-	display: inline-block;
+.nav-logo-nav .logo {
+	display: flex;
 }
 .footer-list {
 	width: 264px;
