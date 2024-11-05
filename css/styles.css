@@ -336,7 +336,7 @@ list-portfolio {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	display: inline-block;
-	margin: 0;
+	margin-bottom: 16px;
 }
 
 .basement .logo-footer {
